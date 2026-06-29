@@ -1,0 +1,271 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Work from home handwriting assignment job. Simple work, weekly payment, job guarantee. Earn ₹18,000 - ₹25,000 monthly.">
+    <meta property="og:title" content="Work From Home Job - Alpha Book Publication">
+    <meta property="og:description" content="Handwriting work from home. Simple work, weekly payment, job guarantee.">
+    <title>Work From Home Job - Alpha Book Publication</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+        
+        body {
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            background: linear-gradient(135deg, #0a0e27 0%, #16213e 100%);
+            min-height: 100vh;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            padding: 20px;
+            color: white;
+        }
+        
+        .container {
+            background: linear-gradient(135deg, #1a1f3a 0%, #16213e 100%);
+            border-radius: 25px;
+            box-shadow: 0 20px 60px rgba(0, 0, 0, 0.8);
+            max-width: 500px;
+            width: 100%;
+            padding: 40px 30px;
+            text-align: center;
+            border: 1px solid rgba(255, 215, 0, 0.1);
+        }
+        
+        .logo {
+            width: 120px;
+            height: 120px;
+            margin: 0 auto 30px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+        }
+        
+        .logo img {
+            width: 100%;
+            height: 100%;
+            object-fit: contain;
+            filter: drop-shadow(0 5px 15px rgba(255, 215, 0, 0.3));
+        }
+        
+        h1 {
+            font-size: 2.2em;
+            font-weight: 700;
+            margin-bottom: 25px;
+            letter-spacing: 0.5px;
+        }
+        
+        .government-badge {
+            display: inline-block;
+            border: 2px solid #ffd700;
+            color: #ffd700;
+            padding: 10px 25px;
+            border-radius: 25px;
+            font-weight: 600;
+            margin-bottom: 25px;
+            font-size: 0.95em;
+            letter-spacing: 1px;
+            background: rgba(255, 215, 0, 0.05);
+        }
+        
+        .subtitle {
+            font-size: 1.1em;
+            color: #00d4ff;
+            margin-bottom: 20px;
+            font-weight: 600;
+            letter-spacing: 0.5px;
+        }
+        
+        .females-badge {
+            display: inline-block;
+            border: 2px solid #ff6b9d;
+            color: #ff6b9d;
+            padding: 10px 25px;
+            border-radius: 25px;
+            font-weight: 600;
+            margin-bottom: 30px;
+            font-size: 1em;
+            background: rgba(255, 107, 157, 0.05);
+        }
+        
+        .guarantee-heading {
+            font-size: 1.8em;
+            font-weight: 700;
+            margin-bottom: 15px;
+            letter-spacing: 0.5px;
+        }
+        
+        .handwriting-heading {
+            color: #00d4ff;
+            font-size: 1.5em;
+            font-weight: 600;
+            margin-bottom: 25px;
+            letter-spacing: 0.5px;
+        }
+        
+        .job-details {
+            margin: 30px 0;
+            text-align: left;
+        }
+        
+        .job-details li {
+            list-style: none;
+            padding: 15px 0;
+            font-size: 1.05em;
+            display: flex;
+            align-items: center;
+            color: #ffffff;
+        }
+        
+        .job-details li:before {
+            content: "✓";
+            color: #9d4edd;
+            font-weight: bold;
+            margin-right: 15px;
+            font-size: 1.3em;
+        }
+        
+        .salary-highlight {
+            color: #ffffff;
+            font-weight: 600;
+        }
+        
+        .limited-seats {
+            background: rgba(255, 140, 0, 0.1);
+            color: #ff8c00;
+            padding: 12px 20px;
+            border-radius: 15px;
+            margin: 25px 0;
+            font-weight: 600;
+            font-size: 1.05em;
+            letter-spacing: 0.5px;
+        }
+        
+        .cta-button {
+            display: inline-block;
+            background: linear-gradient(135deg, #00d4ff 0%, #00b8e6 100%);
+            color: #000000;
+            padding: 16px 50px;
+            border: none;
+            border-radius: 25px;
+            font-size: 1.1em;
+            font-weight: 700;
+            cursor: pointer;
+            text-decoration: none;
+            transition: all 0.3s ease;
+            margin: 25px 0;
+            letter-spacing: 0.5px;
+            box-shadow: 0 10px 30px rgba(0, 212, 255, 0.3);
+        }
+        
+        .cta-button:hover {
+            transform: translateY(-3px);
+            box-shadow: 0 15px 40px rgba(0, 212, 255, 0.5);
+            background: linear-gradient(135deg, #00e6ff 0%, #00d4ff 100%);
+        }
+        
+        .cta-button:before {
+            content: "📱 ";
+            margin-right: 8px;
+        }
+        
+        .cta-button:after {
+            content: " 📱";
+            margin-left: 8px;
+        }
+        
+        .footer {
+            margin-top: 30px;
+            padding-top: 25px;
+            border-top: 1px solid rgba(255, 215, 0, 0.2);
+        }
+        
+        .credit {
+            font-size: 0.95em;
+            color: #ff6b9d;
+            margin-bottom: 10px;
+            font-weight: 500;
+        }
+        
+        .credit:before {
+            content: "💗 ";
+        }
+        
+        .credit:after {
+            content: " 💗";
+        }
+        
+        .disclaimer {
+            font-size: 0.85em;
+            color: #999999;
+            margin-top: 15px;
+            line-height: 1.6;
+        }
+        
+        @media (max-width: 600px) {
+            .container {
+                padding: 25px 20px;
+            }
+            
+            h1 {
+                font-size: 1.8em;
+            }
+            
+            .logo {
+                width: 100px;
+                height: 100px;
+            }
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <!-- Company Name -->
+        <div style="font-size: 2em; font-weight: 700; color: #ffd700; margin-bottom: 30px; letter-spacing: 2px; text-shadow: 0 4px 15px rgba(255, 215, 0, 0.3);">
+            ALPHA BOOK<br>PUBLICATION
+        </div>
+        
+        <!-- Main Heading -->
+        <h1>Work From Home Job 💼</h1>
+        
+        <!-- Government Badge -->
+        <div class="government-badge">🛡️ GOVERNMENT REGISTER COMPANY</div>
+        
+        <!-- Subtitle -->
+        <div class="subtitle">Simple Work · Weekly Payment</div>
+        
+        <!-- Only Females Badge -->
+        <div class="females-badge">👩 ONLY FEMALES</div>
+        
+        <!-- Job Guarantee -->
+        <div class="guarantee-heading">JOB GUARANTEE ✓</div>
+        <div class="handwriting-heading">Handwriting Work</div>
+        
+        <!-- Job Details -->
+        <ul class="job-details">
+            <li>Part Time & Full Time Available</li>
+            <li>Fresher & Students Can Apply</li>
+            <li><span class="salary-highlight">Earn ₹18,000 – ₹25,000 Monthly</span></li>
+        </ul>
+        
+        <!-- Limited Seats -->
+        <div class="limited-seats">⚡ Limited Seats Available 🚀</div>
+        
+        <!-- CTA Button -->
+        <a href="https://t.me/+GUwn1sLHy95iNTFl" class="cta-button" target="_blank">
+            JOIN FREE TELEGRAM
+        </a>
+        
+        <!-- Footer -->
+        <div class="footer">
+            <div class="disclaimer">
+                ⚖️ Disclaimer: This channel is for educational and informational purposes only.
+            </div>
+        </div>
+    </div>
+</body>
+</html>
